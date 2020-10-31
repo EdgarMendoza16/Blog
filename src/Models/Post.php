@@ -3,6 +3,8 @@
 namespace EdgarMendozaTech\Blog\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use EdgarMendozaTech\MediaResource\MediaResource;
+use EdgarMendozaTech\Meta\Meta;
 use EdgarMendozaTech\Blog\Models\Traits\Publishable;
 use EdgarMendozaTech\Blog\Models\Traits\FilterByRangeDate;
 

@@ -13,7 +13,7 @@ use EdgarMendozaTech\Blog\Models\Author;
 use EdgarMendozaTech\Blog\Models\Tag;
 use Carbon\Carbon;
 
-class StatsController extends Controller
+class StatController extends Controller
 {
     public function counters(Request $request)
     {

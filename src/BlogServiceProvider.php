@@ -26,6 +26,12 @@ class BlogServiceProvider extends ServiceProvider
                     'namespace' => '\EdgarMendozaTech\Blog\Http\Controllers',
                 ],
                 function () use ($router) {
+                    $router->get('/contadores', 'StatController@counters');
+                    $router->get(
+                        '/stats-visualizaciones',
+                        'StatController@visualizationStats'
+                    );
+
                     $router->group(
                         ['prefix' => 'publicaciones'],
                         function () use ($router) {

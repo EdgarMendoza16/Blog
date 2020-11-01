@@ -7,10 +7,11 @@ use EdgarMendozaTech\MediaResource\MediaResource;
 use EdgarMendozaTech\Meta\Meta;
 use EdgarMendozaTech\Blog\Models\Traits\Publishable;
 use EdgarMendozaTech\Blog\Models\Traits\FilterByRangeDate;
+use EdgarMendozaTech\Trackables\TrackableTrait;
 
 class Post extends Model
 {
-    use Publishable, FilterByRangeDate;
+    use Publishable, FilterByRangeDate, TrackableTrait;
 
     protected $table = 'blog_posts';
 

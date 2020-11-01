@@ -13,6 +13,7 @@
     "require": {
         "php": ">=5.4.0",
         "edgarmendozatech/meta": "^1.3"
+        "edgarmendozatech/trackables": "^1.0"
     },
     "autoload": {
         "psr-4": {
